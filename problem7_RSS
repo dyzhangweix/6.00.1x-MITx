@@ -1,0 +1,19 @@
+class NewsStory (object):
+    def __init__(self, g, t, s, su, l):
+        self.g=g
+        self.t=t
+        self.s=s
+        self.su=su
+        self.l=l
+    def getGuid(self):
+        return self.g
+    def getTitle(self):
+        return self.t
+    def getSubject(self):
+        return self.s
+    def getSummary(self):
+        return self.su
+    def getLink(self):
+        return self.l
+        
+        
